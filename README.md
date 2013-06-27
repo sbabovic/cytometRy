@@ -11,7 +11,7 @@ This guide is largely derived from scripts provided by [insert name], but mistak
 
 ======================
 
-Have you completed everything in the [Before you start] section(https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start)?  Yes?  Good!
+Have you completed everything in the [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) section?  Yes?  Good!
 
 This document will be made up of a couple of parts: [Part I](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-i) and [Part II](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-ii).
 
