@@ -1,7 +1,7 @@
 flow-cytometry-using-R
 ======================
 
-This document will be made up of a couple of parts: Part I and Part II.
+This document will be made up of a couple of parts: [Part I](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-i) and [Part II](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-ii).
 
 ### Part I 
 
