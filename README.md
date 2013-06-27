@@ -41,7 +41,7 @@ Then you need to define the function fluortrans and draw2dgate
 
 # Before you start
  
-You first need to install the actual program R.  [This page](http://a-little-book-of-r-for-biomedical-statistics.readthedocs.org/en/latest/src/installr.html) has a great guide.  
+You first need to install the actual program R.  [This page](http://a-little-book-of-r-for-biomedical-statistics.readthedocs.org/en/latest/src/installr.html) has a great set of instructions.  
 
 The packages used to analyze flow data are packaged in a set termed Bioconductor.  To install Bioconductor, open the R console and type in the following lines: 
 
@@ -64,3 +64,4 @@ While working in R, please take note of the following rules:
 
 - Capitalization matters; 'flowcore' is not the same as 'flowCore'
 - R does not work well with file names that include spaces; avoid these whenever possible.
+
