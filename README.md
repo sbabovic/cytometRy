@@ -30,7 +30,7 @@ Now load the libraries flowCore and flowViz:
     library(flowCore)
     library(flowViz)
 
-If you're getting an error message at this point, it's probably because you haven't installed the relevant packages yet.  Please see the Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) guide before proceeding further.
+If you're getting an error message at this point, it's probably because you haven't installed the relevant packages yet.  Please see the [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) guide before proceeding further.
     
 ### Part II
 
