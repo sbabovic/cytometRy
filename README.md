@@ -43,7 +43,7 @@ Furthermore, we need to define the function 'draw2dgate' which does exactly what
         colnames(mat)<-c(xchannel,ychannel)
         return(mat)}
 
-At this point, you can choose how to proceed further. If you already did your compensation on the flow cytometry instrument and would like to use that compensation matrix for further analysis, follow the instructions outlined here. If you want to learn how to set up an automatic compensation script in R without relying on any previous compensation matrix, skip to this section. 
+At this point, you can choose how to proceed further. If you already did your compensation on the flow cytometry instrument and would like to use that compensation matrix for further analysis, follow the instructions outlined here. If you want to learn how to set up an automatic compensation script in R without relying on any previous matrix, skip to this section. 
 
 ======================
 
@@ -72,3 +72,4 @@ While working in R, please take note of the following rules:
 
 - Capitalization matters; 'flowcore' is not the same as 'flowCore'
 - R does not work well with file names that include spaces; avoid these whenever possible.
+
