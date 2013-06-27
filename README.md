@@ -3,7 +3,7 @@ Analyzing flow cytometry data using R
 
 This is a very basic guide to using R for analysis of flow cytometry data.  It is intended for biologists already comfortable with flow cytometry but with minimal or no knowledge of programming.  For people totally new to R, I highly recommend completing tutorials #1 and #2 on [Cyclismo.org](http://www.cyclismo.org/tutorial/R/) to get a basic sense of the syntax of the language.  An even more user-friendly introduction to R can be found at [CodeSchool](http://tryr.codeschool.com/levels/1/challenges/1).  People already familiar with other programming languages, or who already have some knowledge of R, may find [aRrgh](https://github.com/tdsmith/aRrgh/blob/master/README.md) highly useful. 
 
-Before moving on, please read [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start)
+Before moving on, please read [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start).
 
 ======================
 
