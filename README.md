@@ -17,9 +17,16 @@ This document will be made up of a couple of parts: [Part I](https://github.com/
 
 ### Part I 
 
-First you need to set your working directory and load the libraries flowCore and flowViz. 
+First you need to set your working directory.  In Windows, this will look something like this (replace the path name with the folder which you'll use to store files for this tutorial, and be sure to replace the default back slash with a forward slash!)
 
-    setwd('/Users/sonja/Desktop/20130618 Post-transplant cycling')
+    setwd("C:/Documents and Settings/username/My Documents/R tutorial")
+
+On a Mac, this will look something like: 
+
+    setwd("/Users/username/R tutorial")
+
+Now load the libraries flowCore and flowViz: 
+
     library(flowCore)
     library(flowViz)
     
@@ -64,4 +71,3 @@ While working in R, please take note of the following rules:
 
 - Capitalization matters; 'flowcore' is not the same as 'flowCore'
 - R does not work well with file names that include spaces; avoid these whenever possible.
-
