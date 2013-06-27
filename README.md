@@ -1,10 +1,17 @@
 flow-cytometry-using-R
 ======================
+
+This document will be made up of a couple of parts: Part I and Part II.
+
+Part I 
+
 First you need to set your working directory and load the libraries flowCore and flowViz. 
 
     setwd('/Users/sonja/Desktop/20130618 Post-transplant cycling')
     library(flowCore)
     library(flowViz)
+    
+Part II
 
 Then you need to define the function fluortrans and draw2dgate
 
