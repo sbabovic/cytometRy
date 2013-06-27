@@ -13,10 +13,6 @@ This guide is largely derived from scripts provided by [insert name], but mistak
 
 Have you completed everything in the [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) section?  Yes?  Good!
 
-This document will be made up of a couple of parts: [Part I](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-i) and [Part II](https://github.com/sbabovic/flow-cytometry-using-R/blob/master/README.md#part-ii).
-
-### Part I 
-
 First you need to set your working directory.  In Windows, this will look something like this (replace the path name with the folder you're using to store files for this tutorial, and be sure to replace the default back slash with a forward slash!):
 
     setwd("C:/Documents and Settings/username/My Documents/R tutorial")
@@ -31,12 +27,13 @@ Now load the libraries flowCore and flowViz:
     library(flowViz)
 
 If you're getting an error message at this point, it's probably because you haven't installed the relevant packages yet.  Please see the [Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) guide before proceeding further.
-    
-### Part II
 
-Then you need to define the function fluortrans and draw2dgate
+Next step is to define the function 'fluortrans'. This can be used to transform any channel by applying a biexponential transformation, where values up to 150 are displayed on a linear scale, and any values higher than that on a logarithmic scale (you can change the cutoff).
 
     fluortrans<-arcsinhTransform(transformationId="fluorTransform",a=0,b=(1/150),c=0)
+
+Furthermore, we need to define the function 'draw2dgate' which does exactly what you would expect. 
+
     draw2dgate<-function(flowframe,ychannel,xchannel,maxevents){
         yrange<-c(range(flowframe)[1,ychannel],range(flowframe)[2,ychannel])
         xrange<-c(range(flowframe)[1,xchannel],range(flowframe)[2,xchannel])
@@ -45,6 +42,8 @@ Then you need to define the function fluortrans and draw2dgate
         mat<-cbind(tmp$x,tmp$y)
         colnames(mat)<-c(xchannel,ychannel)
         return(mat)}
+
+At this point, you can choose how to proceed further. If you already did your compensation on the flow cytometry instrument and would like to use that compensation matrix for further analysis, follow the instructions outlined here. If you want to learn how to set up an automatic compensation script in R without relying on any previous compensation matrix, skip to this section. 
 
 ======================
 
