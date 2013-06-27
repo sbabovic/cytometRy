@@ -68,8 +68,7 @@ You only need to install these packages once, but have to load them every time y
     library(flowCore)
     library(flowViz)
 
-While working in R, please take note of the following rules: 
+**While working in R, please take note of the following rules:** 
 
 - Capitalization matters; 'flowcore' is not the same as 'flowCore'
 - R does not work well with file names that include spaces; avoid these whenever possible.
-
