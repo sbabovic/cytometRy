@@ -55,6 +55,11 @@ You now need to install the packages flowCore and flowViz.
     biocLite("flowCore")
     biocLite("flowViz")
 
+You only need to install these packages once, but have to load them every time you need to use them, by using the 'library' command: 
+
+    library(flowCore)
+    library(flowViz)
+
 While working in R, please take note of the following rules: 
 
 - Capitalization matters; 'flowcore' is not the same as 'flowCore'
