@@ -17,7 +17,7 @@ This document will be made up of a couple of parts: [Part I](https://github.com/
 
 ### Part I 
 
-First you need to set your working directory.  In Windows, this will look something like this (replace the path name with the folder which you'll use to store files for this tutorial, and be sure to replace the default back slash with a forward slash!)
+First you need to set your working directory.  In Windows, this will look something like this (replace the path name with the folder you're using to store files for this tutorial, and be sure to replace the default back slash with a forward slash!):
 
     setwd("C:/Documents and Settings/username/My Documents/R tutorial")
 
@@ -29,6 +29,8 @@ Now load the libraries flowCore and flowViz:
 
     library(flowCore)
     library(flowViz)
+
+If you're getting an error message at this point, it's probably because you haven't installed the relevant packages yet.  Please see the Before you start](https://github.com/sbabovic/cytometRy/blob/master/README.md#before-you-start) guide before proceeding further.
     
 ### Part II
 
