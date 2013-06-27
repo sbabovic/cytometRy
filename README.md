@@ -3,7 +3,7 @@ flow-cytometry-using-R
 
 This document will be made up of a couple of parts: Part I and Part II.
 
-Part I 
+# Part I 
 
 First you need to set your working directory and load the libraries flowCore and flowViz. 
 
@@ -11,7 +11,7 @@ First you need to set your working directory and load the libraries flowCore and
     library(flowCore)
     library(flowViz)
     
-Part II
+# Part II
 
 Then you need to define the function fluortrans and draw2dgate
 
